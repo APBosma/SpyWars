@@ -1,0 +1,5 @@
+For some reason my switch statement was adamant that it needed an int so I used stoi(stringNameHere) which I got from Geeksforgeeks (https://www.geeksforgeeks.org/stdstoi-function-in-cpp/). 
+
+I also spoke to Bowe for help on my random number generator. I ended up using the code from Medium (https://medium.com/@zijun0502/c-consistent-rng-seeding-for-multi-threaded-program-c938e817ff45), using thread instead of pthread. I then used a modulous to adjust ranges, similar to rand(). I also looked at this ( https://stackoverflow.com/questions/21237905/how-do-i-generate-thread-safe-uniform-random-numbers) openStax thread (no pun intended) to figure some of this stuff out. Cpp Reference also somewhat helped in understanding the code (https://en.cppreference.com/w/cpp/numeric/random/uniform_int_distribution)
+
+For remembering cpp thread syntax I used our previous sum with mutex code from class.
